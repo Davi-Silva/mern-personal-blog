@@ -1,0 +1,14 @@
+{
+  "name": "mer-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "client": "cd frontend && yarn run start",
+    "server": "cd backend && yarn run dev",
+    "dev": "concurrently \"yarn run client\" \"yarn run server\""
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.2"
+  }
+}
